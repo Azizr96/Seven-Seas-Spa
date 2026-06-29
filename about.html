@@ -22,7 +22,7 @@
     <!-- custom css link -->
     <link rel="stylesheet" href="assets/CSS/style.css" >
 
-    <title>Seven Seas Spa — Contact Us</title>
+    <title>Seven Seas Spa — About</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -45,13 +45,13 @@
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
+              <a class="nav-link" href="index.html#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -62,50 +62,68 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
-            <h1 class="display-5 fw-bold">Get in Touch</h1>
-            <p class="lead mb-4">We'd love to hear from you.</p>
+            <h1 class="display-5 fw-bold">About Us</h1>
+            <p class="lead mb-4">Discover who we are, what drives us, and the team behind Seven Seas Spa.</p>
           </div>
         </div>
       </div>
     </section>
 
     <main>
-      <!-- contact form -->
-      <section class="py-5" id="content">
+      <section class="py-5" id="about-content">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="card shadow-sm">
-                <div class="card-body p-4">
-                  <h2 class="card-title mb-3">Contact Us</h2>
-                  <p class="lead">We're here to help and answer any questions you may have. We look forward to hearing from you. </p>
-                  <form action="thankyou.html" class="needs-validation" id="contactForm">
-                    <div class="mb-3">
-                      <label for="name" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="name" name="name" required>
-                      <div class="invalid-feedback">Please enter your name.</div>
-                    </div>
+          <div class="text-left mb-5">
+            <h2 class="section-title">Who We Are</h2>
+            <p>We are a wellness company dedicated to improving the health and wellbeing of our clients. Our team of
+                experts offers a range of services, including yoga classes, nutritional advice, mental health support,
+                and wellness programs.</p>
+          </div>
 
-                    <div class="mb-3">
-                      <label for="email" class="form-label">Email</label>
-                      <input type="email" class="form-control" id="email" name="email" required>
-                      <div class="invalid-feedback">Please enter a valid email address.</div>
-                    </div>
+          <div class="text-left mb-5">
+            <h2 class="section-title">Our Mission</h2>
+            <p>Our mission is to provide high-quality wellness services that improve the overall health and
+                    wellbeing of our clients. We believe in the power of holistic wellness and strive to provide our
+                    clients with the tools and resources they need to live healthier, happier lives.</p>
+          </div>
 
-                    <div class="mb-3">
-                      <label for="subject" class="form-label">Subject</label>
-                      <input type="text" class="form-control" id="subject" name="subject" required>
-                      <div class="invalid-feedback">Please enter a subject.</div>
-                    </div>
+          <div class="text-left mb-5">
+            <h2 class="section-title">Our Team</h2>
+            <p class="lead">Meet the dedicated team behind our wellness services.</p>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="assets/images/emily_johnson.png" class="card-img-top" alt="Team member image">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Emily Johnson</h3>
+                    <p class="card-text">Emily is our mental health counselor. She provides support and guidance to our clients,
+                   helping them improve their mental wellbeing.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                    <div class="mb-3">
-                      <label for="message" class="form-label">Message</label>
-                      <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                      <div class="invalid-feedback">Please enter your message.</div>
-                    </div>
+              <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="assets/images/john_doe.png" class="card-img-top" alt="Team member image">
+                  <div class="card-body">
+                    <h3 class="card-title h5">John Doe</h3>
+                    <p class="card-text">John is our lead yoga instructor. He has over 10 years of experience in teaching yoga and is
+                    passionate about helping people improve their flexibility and reduce stress.
+                    </p>
+                  </div>
+                </div>
+              </div>
 
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                  </form>
+              <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                  <img src="assets/images/jane_smith.png" class="card-img-top" alt="Team member image">
+                  <div class="card-body">
+                    <h3 class="card-title h5">Jane Smith</h3>
+                      <p class="card-text">
+                        Jane is our nutritionist. She specializes in creating personalized nutrition plans that help
+                        our clients achieve their health goals.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -127,7 +145,6 @@
     </footer>
 
     <!-- bootstrap JS link -->
-    <!-- Native HTML5 validation is used; no custom JS validation. -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
