@@ -1,0 +1,19 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #3b2f2f !important;
+}
+
+.navbar .nav-link.active {
+  font-weight: 700;
+}
+
