@@ -42,6 +42,10 @@ body{
   font-weight: bold;
 }
 
+.card-body h3 {
+  font-size: 1.3rem;
+}
+
 .service-card-img {
   height: 200px;
   object-fit: cover;
