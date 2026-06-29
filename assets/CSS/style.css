@@ -56,5 +56,23 @@ body{
   line-height: 1.7;
 }
 
+.site-footer {
+  background-color: #6f4e37;
+  color: #ffebd4;
+}
+
+.site-footer p,
+.site-footer .footer-link {
+  color: #ffebd4;
+}
+
+.footer-link {
+  font-size: 1.1rem;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
 
 
