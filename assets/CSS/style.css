@@ -47,6 +47,10 @@ body{
   object-fit: cover;
 }
 
+#testimonialCarousel .carousel-indicators {
+  margin-bottom: 1.5rem;
+}
+
 .wellness-tips-list {
   font-size: 1rem;
   line-height: 1.7;
