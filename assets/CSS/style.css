@@ -1,4 +1,3 @@
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -16,4 +15,20 @@ body{
 .navbar .nav-link.active {
   font-weight: 700;
 }
+
+.hero-section {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/hero-img.png") center center / cover no-repeat;
+  min-height: 40vh;
+  color: #ffebd4;
+}
+
+
+
+.hero-section h1 {
+  font-family: 'Handlee', cursive;
+  color: #ffebd4;
+}
+
+
 
